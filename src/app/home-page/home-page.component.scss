@@ -1,0 +1,75 @@
+
+.hay{
+    display: flex;
+    justify-content: space-between;
+}
+.bee{
+    opacity: 0.4;
+    
+}
+.cee{
+    font-weight: 900;
+}
+.card{
+    border: none;
+}
+.dee{
+    text-align: right;
+    padding:  15px 15px 15px 15px;
+}
+// .gee{
+//     display: block;
+// }
+thead{
+    background-color: beige;
+    
+}
+td{
+    border-bottom: 0.5px solid rgb(219, 218, 218);
+    padding: 22px;
+    font-size: 14px;
+}
+tr, th{
+    padding: 15px;
+}
+.btn1{
+    border: none;
+    background: none;
+    color: red;
+}
+.circle{
+    display: grid;
+    place-items: center;
+    margin: 0 20px;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+
+}
+.circle .circle_inner{
+    display: grid;
+    place-items: center;
+    width: 170px;
+    height: 170px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.circle.crimson{
+    color: crimson;
+    background: conic-gradient(rgb(118, 164, 224)  0 65%, #1be6cb 65% 100%);
+}
+.elf{
+    font-weight: 900;
+    font-size: 22px;
+}
+.gee{
+    background: rgb(118, 164, 224);
+    display: none;
+}
+// @media only screen and (max-width:580px){
+//     .gee{
+//         display: inline;
+//     }
+// }

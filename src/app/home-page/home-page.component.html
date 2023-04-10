@@ -1,0 +1,167 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 ">
+            <!-- Left column -->
+            <div class="card">
+                <div class="card-body">
+                    <div class="hay">
+                      <span class="card-title bee">Active</span>
+                      <span class="card-title bee">Portfolio</span>
+                    </div>
+                    <div class="hay">
+                        <p class="card-text cee">3.8 million</p>
+                        <p class="card-text cee">1.2 million</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <!-- Middle column -->
+            <div class="card">
+                <div class="card-body dee">
+                    
+                    <h3 class="card-text ">vemaps.com</h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <!-- Right column -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Card content goes here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-5 mb-3">
+    <div class="row">
+        <div class="col-md-9 ">
+            <!-- Left column  -->
+            <div class="card">
+                <div class="card-body">
+                    <div class="container mt-2 table-responsive">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>Wallet Number</th>
+                                    <th>Amount</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr *ngFor = "let table of rows">
+                                <td>{{table.walletNumber}}</td>
+                                <td>{{table.amount}}</td>
+                                <td>{{table.date}}</td>
+                                <td>{{table.status}}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                </div> 
+            </div>
+        </div>
+    
+        <div class="col-md-3 mt-3">
+            <!-- Right column -->
+            <div class="card">
+                <div class="card-body">
+                    <div class="hay mb-3">
+                        <span class="card-title bee">Vendor Activity</span>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle btn1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Last Month
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="circle crimson">
+                        <div class="circle_inner">
+                       <span><h3 class="elf">10,000</h3><br>Vendors</span>
+                        </div>
+                    </div>
+                    <div class="hay mt-3 p-2">
+                        <div class="">
+                          <h2 class="gee">B</h2>
+                          <span class="">Active</span>
+                          <h3>6,500</h3>
+                        </div>
+                        <div>
+                           <span class="">Inactive</span>
+                           <h3>3,500</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container mt-2 table-responsive">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>Wallet Number</th>
+                                    <th>Amount</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr *ngFor = "let table of rows">
+                                <td>{{table.walletNumber}}</td>
+                                <td>{{table.amount}}</td>
+                                <td>{{table.date}}</td>
+                                <td>{{table.status}}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="container mt-2 table-responsive">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>Wallet Number</th>
+                                    <th>Amount</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr *ngFor = "let table of rows">
+                                <td>{{table.walletNumber}}</td>
+                                <td>{{table.amount}}</td>
+                                <td>{{table.date}}</td>
+                                <td>{{table.status}}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
