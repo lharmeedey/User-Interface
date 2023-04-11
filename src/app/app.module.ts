@@ -19,6 +19,8 @@ import { TransactionsComponent } from './transactions/transactions.component';
 import { ReportsComponent } from './reports/reports.component';
 import { UsersComponent } from './users/users.component';
 import { AuditTrailsComponent } from './audit-trails/audit-trails.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { GooglemapComponent } from './google-map/google-map.component'
 
 
 
@@ -34,7 +36,8 @@ import { AuditTrailsComponent } from './audit-trails/audit-trails.component';
     TransactionsComponent,
     ReportsComponent,
     UsersComponent,
-    AuditTrailsComponent
+    AuditTrailsComponent,
+    GooglemapComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +49,7 @@ import { AuditTrailsComponent } from './audit-trails/audit-trails.component';
     MatListModule,
     MatButtonModule,
     MatDividerModule,
+    GoogleMapsModule
     
   ],
   providers: [],

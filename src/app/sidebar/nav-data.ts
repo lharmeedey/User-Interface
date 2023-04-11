@@ -26,7 +26,7 @@ export const navbarData = [
     },
     {
         routerLink: 'reports',
-        icon: 'fa fa-book',
+        icon: 'fa fa-pie-chart',
         label: 'Reports'
     },
     {
