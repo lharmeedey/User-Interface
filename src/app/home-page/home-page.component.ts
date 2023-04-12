@@ -29,7 +29,7 @@ export class HomePageComponent  {
       walletNumber: '20330319174201013',
       amount: 'NGN 40,000.00',
       date: '19 mar, 2023',
-      status:'failed'
+      status:'Successful'
     },
     {
       walletNumber: '20330319174201014',
@@ -49,34 +49,30 @@ export class HomePageComponent  {
 
   rows =[
     {
-      walletNumber: '20330319174201011',
+      name: 'Kunle Lanre',
       amount: 'NGN 20,000.00',
-      date: '13 mar, 2023',
-      status:'Successful'
+      volume: '13 mar, 2023',
+      
     },
     {
-      walletNumber: '20330319174201012',
-      amount: 'NGN 30,000.00',
-      date: '14 mar, 2023',
-      status:'Successful'
+      name: 'Kunle Lanre',
+      amount: 'NGN 20,000.00',
+      volume: '13 mar, 2023',
     },
     {
-      walletNumber: '20330319174201013',
-      amount: 'NGN 40,000.00',
-      date: '19 mar, 2023',
-      status:'Successful'
+      name: 'Kunle Lanre',
+      amount: 'NGN 20,000.00',
+      volume: '13 mar, 2023',
     },
     {
-      walletNumber: '20330319174201014',
-      amount: 'NGN 10,000.00',
-      date: '18 mar, 2023',
-      status:'Successful'
+      name: 'Kunle Lanre',
+      amount: 'NGN 20,000.00',
+      volume: '13 mar, 2023',
     },
     {
-      walletNumber: '20330319174201015',
-      amount: 'NGN 50,000.00',
-      date: '15 mar, 2023',
-      status:'Successful'
+      name: 'Kunle Lanre',
+      amount: 'NGN 20,000.00',
+      volume: '13 mar, 2023',
     },
   ]
 
